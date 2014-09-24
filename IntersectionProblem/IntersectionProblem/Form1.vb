@@ -15,7 +15,7 @@ Public Class Form1
         ' All input must be numbers
         If Not (IsNumeric(Ast) And IsNumeric(Bst) And IsNumeric(Cst) _
                 And IsNumeric(Dst)) Then
-            MessageBox.Show("Please enter valid numbers", "Error!")
+            MessageBox.Show("Please enter correct numbers", "Error!")
             Return
         End If
 
